@@ -1,8 +1,8 @@
 client:
-	g++ client/main.cpp -o run-client
+	g++ client/*.cpp  -o run-client
 
 server:
-	g++ server/main.cpp -o run-server
+	g++ server/*.cpp -o run-server
 
 clean:
 	rm -rf run-*
